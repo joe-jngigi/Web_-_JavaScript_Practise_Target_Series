@@ -43,4 +43,5 @@ const callingFunction = (Callback) => {
 // In this, it will call the calling function that asks for a prompt, and then it will call the called function again,
 // which will inturn allow to use the parameter name in this second function. Now to apply for a callback function,
 // you call the main calling function so that it can call the second function.
-callingFunction(calledFunction)
+
+callingFunction(calledFunction);

@@ -1,0 +1,143 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    position: relative;
+    margin: 0px;
+    padding: 30px;
+    color: aliceblue;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    background-color: rgb(7, 7, 7);
+    color: whitesmoke;
+    width: 100%;
+    z-index: 50;
+}
+.header span{
+    display: flex;
+    flex-direction: row;
+    
+}
+.header span a{
+    text-align: center;
+    padding: 12px;
+    width: 100px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: wheat;
+    border-radius: 50px;
+    border: 1px solid wheat;
+}
+video{
+    /* position: absolute; */
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    background-attachment: fixed;
+}
+
+.container{
+    border: 1px solid rebeccapurple;
+    border-radius: 12px;
+   height: 500px;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    /* grid-template-columns: repeat(3, 1fr); */
+    gap: 10px;
+    justify-content: space-evenly;
+    /* align-items: flex-start; */
+
+}
+#maps{
+    margin-top: 160px;
+}
+.maps iframe{
+    border-radius: 12px;
+
+}
+.animated{
+    height: 400px;
+    border-radius: 12px;
+    background-color: whitesmoke;
+    width: 100%;
+    padding:10px;
+    transition: 0.7s;
+    z-index:1;
+}
+.animated img{
+   height: 400px;
+    border-radius: 12px;
+    background-position: center;
+    image-rendering: pixelated;
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    z-index: -1;
+    transition: 0.7s;
+}
+.animated img:hover{
+    z-index: -1;
+    transform: scale(1.05);
+}
+.fade-in-left{
+    animation: fade-in-left 1.2s both;
+}
+.fade-in-top{
+    animation: fade-in-top 1.2s both;
+}
+.fade-in-right{
+    animation: fade-in-right 1.2s both;
+}
+
+
+@keyframes fade-in-left{
+    0%{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes fade-in-top{
+    0%{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes fade-in-right{
+    0%{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

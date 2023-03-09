@@ -1,0 +1,16 @@
+{
+  "name": "colors",
+  "version": "1.0.0",
+  "description": "change bg-colors",
+  "main": "generate_color.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "joe_j",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7"
+  }
+}

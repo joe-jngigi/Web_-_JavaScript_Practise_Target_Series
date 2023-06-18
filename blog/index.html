@@ -8,21 +8,157 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
 </head>
-<body class="max-w-[1300px] mx-auto">
-    <header class="flex items-center justify-between py-5">
-        <div >
-            <h1 class="text-3xl font-bold">Change Body Color BG</h1>
-            <h2 class="mt-4 text-emerald-500" id="bg-body">Color Code: #FFFFFF</h2>
-        </div>
-        <div >
-            <button class="border-2 border-blue-900 p-3 rounded-full uppercase to-indigo-400" id="color-btn">Update Theme</button>
-            <button class="border-2 border-blue-900 p-3 rounded-full uppercase to-indigo-400" id="reset-btn">Reset Background</button>
-        </div>
+<body class="bg-slate-100">
+    <header class="bg-white ">
+        <section class="max-w-[1300px] mx-auto flex items-center justify-between py-5">
+            <div >
+                <h1 class="text-3xl font-bold">Change Body Color BG</h1>
+                <h2 class="mt-4 text-emerald-500" id="bg-body">Color Code: #FFFFFF</h2>
+            </div>
+            <div >
+                <button class="border-2 border-blue-900 p-3 rounded-full uppercase to-indigo-400" id="color-btn">Update Theme</button>
+                <button class="border-2 border-blue-900 p-3 rounded-full uppercase to-indigo-400" id="reset-btn">Reset Background</button>
+            </div>
+        </section>
     </header>
 
     <!-- Body -->
-    <main>
-        body
+    <main class="max-w-[1300px] mx-auto">
+        <h1 class="text-4xl font-extrabold py-5">Blogs Posts</h1>
+
+        <!-- Header -->
+        <section class="md:grid flex flex-col-reverse md:grid-cols-2 gap-4 p-2 m-2 bg-white shadow-lg rounded-2xl">
+            
+            <!-- Left Content -->
+            <div class="md:mt-16 p-5 md:p-10">
+                <h2 class="text-3xl font-bold">Lorem ipsum dolor sit amet.</h2>
+                <p class="py-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi iure assumenda illum aliquam quia ipsa.</p>
+                <a href="/blog/blogpage.html" class="py-2 px-5  bg-black text-white rounded-lg">Learn More</a>
+            </div>
+
+            <!-- Right Image -->
+            <div>
+                <span>
+                    <img class="h-[300px] sm:h-[500px] md:h-auto w-full rounded-2xl" src="/blog/image_resources/bluefx.jpg" alt="">
+                </span>
+            </div>
+        </section>
+        
+
+        <!-- Blogs Cards -->
+        <section class="my-5 px-2">
+            <div class="py-10">
+                <span class="flex flex-wrap md:flex-row gap-5 md:gap-10">
+                    <a href="" class="py-2 px-5  bg-black text-white rounded-full">Category 1</a>
+                    <a href="" class="py-2 px-5 bg-red-400 rounded-full">Category 2</a>
+                    <a href="" class="py-2 px-5 bg-green-400 rounded-full">Category 3</a>
+                    <a href="" class="py-2 px-5 bg-yellow-400 rounded-full">Category 4</a>
+                    
+                </span>
+            </div>
+
+            <!-- Cards -->
+            <div class="font-semibold grid sm:grid-cols-2 md:grid-cols-3  xl:grid-cols-4 gap-5 md:p-10 xl:p-0">
+                <!-- Card One -->
+                <div class="md:max-w-[450px] md:shadow-lg bg-white rounded-xl hover:shadow-md hover:scale-[1.03] duration-500">
+                    <!-- Image -->
+                    <!-- hover:scale-[1.1]  -->
+                    <span>
+                        <img class="w-full rounded-t-xl cursor-pointer transition-all" src="/blog/image_resources/markets.jpg" alt="">
+                    </span>
+                  
+                    <!-- Info -->
+                    <span class="flex flex-col p-3">
+                        <span class="flex items-center justify-between">
+                            <p>May 23, 2023</p>
+                            <p class="py-2 px-5 bg-black text-white rounded-full">category</p>
+                        </span>
+                        <h2 class="text-2xl font-bold mt-5">Article Name - Hadline for an article Hadline for an article Hadline for an article</h2>
+                        <span class="py-3 ">
+                            <a class="border-b-2 border-black" href="">Read More</a>
+                        </span>
+                    </span>
+                </div>
+                <div class="md:max-w-[450px] md:shadow-lg bg-white rounded-xl hover:shadow-md hover:scale-[1.03] duration-500">
+                    <!-- Image -->
+                    <!-- hover:scale-[1.1]  -->
+                    <span>
+                        <img class="w-full rounded-t-xl cursor-pointer transition-all" src="/blog/image_resources/markets.jpg" alt="">
+                    </span>
+                  
+                    <!-- Info -->
+                    <span class="flex flex-col p-3">
+                        <span class="flex items-center justify-between">
+                            <p>May 23, 2023</p>
+                            <p class="py-2 px-5 bg-black text-white rounded-full">category</p>
+                        </span>
+                        <h2 class="text-2xl font-bold mt-5">Article Name - Hadline for an article Hadline for an article Hadline for an article</h2>
+                        <span class="py-3 ">
+                            <a class="border-b-2 border-black" href="">Read More</a>
+                        </span>
+                    </span>
+                </div>
+                <div class="md:max-w-[450px] md:shadow-lg bg-white rounded-xl hover:shadow-md hover:scale-[1.03] duration-500">
+                    <!-- Image -->
+                    <!-- hover:scale-[1.1]  -->
+                    <span>
+                        <img class="w-full rounded-t-xl cursor-pointer transition-all" src="/blog/image_resources/markets.jpg" alt="">
+                    </span>
+                  
+                    <!-- Info -->
+                    <span class="flex flex-col p-3">
+                        <span class="flex items-center justify-between">
+                            <p>May 23, 2023</p>
+                            <p class="py-2 px-5 bg-black text-white rounded-full">category</p>
+                        </span>
+                        <h2 class="text-2xl font-bold mt-5">Article Name - Hadline for an article Hadline for an article Hadline for an article</h2>
+                        <span class="py-3 ">
+                            <a class="border-b-2 border-black" href="">Read More</a>
+                        </span>
+                    </span>
+                </div>
+                <div class="md:max-w-[450px] md:shadow-lg bg-white rounded-xl hover:shadow-md hover:scale-[1.03] duration-500">
+                    <!-- Image -->
+                    <!-- hover:scale-[1.1]  -->
+                    <span>
+                        <img class="w-full rounded-t-xl cursor-pointer transition-all" src="/blog/image_resources/markets.jpg" alt="">
+                    </span>
+                  
+                    <!-- Info -->
+                    <span class="flex flex-col p-3">
+                        <span class="flex items-center justify-between">
+                            <p>May 23, 2023</p>
+                            <p class="py-2 px-5 bg-black text-white rounded-full">category</p>
+                        </span>
+                        <h2 class="text-2xl font-bold mt-5">Article Name - Hadline for an article Hadline for an article Hadline for an article</h2>
+                        <span class="py-3 ">
+                            <a class="border-b-2 border-black" href="">Read More</a>
+                        </span>
+                    </span>
+                </div>
+
+                <div class="md:max-w-[450px] md:shadow-lg bg-white rounded-xl hover:shadow-md hover:scale-[1.03] duration-500">
+                    <!-- Image -->
+                    <!-- hover:scale-[1.1]  -->
+                    <span>
+                        <img class="w-full rounded-t-xl cursor-pointer transition-all" src="/blog/image_resources/markets.jpg" alt="">
+                    </span>
+                  
+                    <!-- Info -->
+                    <span class="flex flex-col p-3">
+                        <span class="flex items-center justify-between">
+                            <p>May 23, 2023</p>
+                            <p class="py-2 px-5 bg-black text-white rounded-full">category</p>
+                        </span>
+                        <h2 class="text-2xl font-bold mt-5">Article Name - Hadline for an article Hadline for an article Hadline for an article</h2>
+                        <span class="py-3 ">
+                            <a class="border-b-2 border-black" href="">Read More</a>
+                        </span>
+                    </span>
+                </div>
+                
+            </div>
+        </section>
     </main>
 
 

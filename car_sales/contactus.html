@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Mak Enterprises</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/car_sales/main.css">
+
+    <style>
+        /* Custom styles */
+        .backdrop-blur-lg {
+            backdrop-filter: blur(8px);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-white py-4">
+        <section class="max-w-[95%] backdrop-blur-lg mx-auto flex items-center justify-between py-5">
+            <div>
+                <h1 class="text-3xl font-bold">Mak Enterprises</h1>
+            </div>
+
+            <div class="">
+                <nav class="flex gap-3 transition-all duration-1000">
+                    <span class="text-orange-400 hover:border-b-2 px-2 active:text-orange-600 hover:border-b-orange-600 hover:text-orange-600  duration-300">
+                        <a href="./index.html" class="font-body text-xl font-semibold ">Home</a>
+                    </span>
+                    <span class="hover:border-b-2 px-2 active:text-orange-600 hover:border-b-orange-600 hover:text-orange-600  duration-300">
+                        <a href="./rentcar.html" class="font-body text-xl font-semibold ">Rent Out</a>
+                    </span>
+                    <span class="hover:border-b-2 px-2 active:text-orange-600 hover:border-b-orange-600 hover:text-orange-600  duration-300">
+                        <a href="./shopcar.html" class="font-body text-xl font-semibold ">Shop Cars</a>
+                    </span>
+                    <span class="hover:border-b-2 px-2 active:text-orange-600 hover:border-b-orange-600 hover:text-orange-600  duration-300">
+                        <a href="./about.html" class="font-body text-xl font-semibold ">About</a>
+                    </span>
+                </nav>
+            </div>
+        </section>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="bg-gray-100 py-12">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-8 ">Contact Us</h2>
+            <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-5 text-white">
+                
+
+                <!-- Contact Details -->
+                <div class="flex flex-col items-center justify-center bg-slate-900 rounded-lg text-white p-5">
+                    <h3 class="text-2xl font-semibold mb-4">Contact Details</h3>
+                    <p class="mb-2"><i class="fas fa-map-marker-alt mr-2"></i> 123 Main Street, City, Country</p>
+                    <p class="mb-2"><i class="fas fa-phone-alt mr-2"></i> +1 234 567 890</p>
+                    <p class="mb-2"><i class="fas fa-envelope mr-2"></i> info@makenterprises.com</p>
+                </div>
+
+                <!-- Inquiry Form -->
+                <div class="bg-slate-900 rounded-lg text-white p-5">
+                    <h3 class="text-2xl font-semibold">Send us a message</h3>
+                    <form class="flex flex-col items-center justify-center bg-slate-900 rounded-lg text-white">
+                        <div class="mb-4">
+                            <label for="name" class="block font-medium">Name</label>
+                            <input type="text" id="name" name="name" class="w-full border-gray-300 focus:border-orange-500 rounded-md px-4 py-2" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block font-medium">Email</label>
+                            <input type="email" id="email" name="email" class="w-full border-gray-300 focus:border-orange-500 rounded-md px-4 py-2" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="message" class="block font-medium">Message</label>
+                            <textarea id="message" name="message" class="w-full border-gray-300 focus:border-orange-500 rounded-md px-4 py-2" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="bg-orange-500 hover:bg-orange-600 text-white font-medium rounded-md px-6 py-2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="relative m-auto background">
+            <div class="h-full">
+                <div class="bg-comp">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+    
+                <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 font-light backdrop-filter backdrop-blur-lg text-white font-boldrounded-xl p-3">
+                    <div>
+                        <h4 class="text-lg font-semibold mb-2">Follow Us</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="hover:text-orange-600"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                            <li><a href="#" class="hover:text-orange-600"><i class="fab fa-twitter-square"></i> Twitter</a></li>
+                            <li><a href="#" class="hover:text-orange-600"><i class="fab fa-instagram-square"></i> Instagram</a></li>
+                            <li><a href="#" class="hover:text-orange-600"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                            <li><a href="#" class="hover:text-orange-600"><i class="fab fa-youtube-square"></i> YouTube</a></li>
+                        </ul>
+                    </div>
+    
+                    <div>
+                        <h4 class="text-lg font-semibold mb-2">Links</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="hover:text-orange-600"><i class="fas fa-link"></i> Affiliates</a></li>
+                            <li><a href="#" class="hover:text-orange-600"><i class="fas fa-link"></i> Products</a></li>
+                            <li><a href="#" class="hover:text-orange-600"><i class="fas fa-link"></i> Downloads</a></li>
+                        </ul>
+                    </div>
+    
+                    <div>
+                        <h4 class="text-lg font-semibold mb-2 backdrop-blur-lg">Pages</h4>
+                        <ul class="space-y-2">
+                            <li><a href="./aboutus.html" class="hover:text-orange-600"><i class="fas fa-info-circle"></i> About</a></li>
+                            <li><a href="./contactus.html" class="hover:text-orange-600"><i class="fas fa-phone"></i> Contact</a></li>
+                            <li><a href="./termsandconditions.html" class="hover:text-orange-600"><i class="fas fa-file-alt"></i> Terms</a></li>
+                            <li><a href="./faqs.html" class="hover:text-orange-600"><i class="fas fa-question-circle"></i> FAQ</a></li>
+                            <li><a href="./blogs.html" class="hover:text-orange-600"><i class="fas fa-newspaper"></i> Blog</a></li>
+                            <li><a href="./privacy.html" class="hover:text-orange-600"><i class="fas fa-lock"></i> Privacy</a></li>
+                        </ul>
+                    </div>
+    
+                    <div>
+                        <h4 class="text-lg font-semibold mb-2">Contact Us</h4>
+                        <ul class="space-y-2">
+                            <li><i class="fas fa-map-marker-alt"></i> Address: 123 Street, City, Country</li>
+                            <li><i class="fas fa-envelope"></i> Email: info@example.com</li>
+                            <li><i class="fas fa-phone"></i> Phone: +1234567890</li>
+                        </ul>
+                    </div>
+                </section>
+    
+                <section class="pl-3 sm:pl-16 sm:pr-16 bg-black m-auto text-orange-600">
+                    <h5 class="text-sm flex sm:flex-row flex-col justify-between">
+                        <span class="flex sm:flex-row">
+                            <span class="flex">&copy; 2023 <p>&nbsp;Mak Enterprises.&nbsp;</p></span>
+                            <p class="flex">All rights reserved.</p>
+                        </span>
+                        <span><a class="" href="#">Developer</a></span>
+                    </h5>
+                </section>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com/2.2.19/tailwind.min.js"></script>
+</body>
+</html>

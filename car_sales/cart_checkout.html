@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart: Review and Proceed</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="/car_sales/main.css">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <header class="bg-white py-4">
+        <section class="max-w-[95%] backdrop-blur-lg mx-auto flex items-center justify-between py-5">
+            <div >
+                <h1 class="text-3xl font-bold">Mak Enterprises</h1>
+            </div>
+    
+            <div class="">
+                <nav class="flex gap-3 transition-all duration-1000">
+                    <span class="text-orange-400 hover:border-b-2 px-2 active:text-orange-600 hover:border-b-orange-600 hover:text-orange-600  duration-300">
+                        <a href="./index.html" class="font-body text-xl font-semibold ">Home</a>
+                    </span>
+                    <span class="hover:border-b-2 px-2 active:text-orange-600 hover:border-b-orange-600 hover:text-orange-600  duration-300">
+                        <a href="./rentcar.html" class="font-body text-xl font-semibold ">Rent Out</a>
+                    </span>
+                    <span class="hover:border-b-2 px-2 active:text-orange-600 hover:border-b-orange-600 hover:text-orange-600  duration-300">
+                        <a href="./shopcar.html" class="font-body text-xl font-semibold ">Shop Cars</a>
+                    </span>
+                    
+                </nav>
+            </div>
+    
+            
+        </section>
+    </header>
+
+  <main class="container mx-auto px-4 py-8">
+    <h2 class="text-3xl font-semibold mb-8">Review and Proceed</h2>
+
+    <div class="grid sm:grid-cols-2 gap-8">
+      <!-- Car 1 -->
+      <div class="bg-white rounded-xl shadow-md p-4">
+        <h3 class="text-lg font-semibold mb-2"> Bentley</h3>
+        <img class="w-full h-64 object-cover rounded-lg mb-4" src="./image_resources/config 34 Continental GT Speed orange flame 850x479.png" alt="Car Image">
+        <p class="mb-2"><strong>Brand:</strong> Bentley</p>
+        <p class="mb-2"><strong>Model:</strong>  Bentley</p>
+        <p class="mb-2"><strong>Year:</strong> 2023</p>
+        <p class="mb-2"><strong>Color:</strong> Orange</p>
+        <div class="flex justify-between items-center mt-4">
+          <p class="text-orange-600 font-bold">$100,000</p>
+          <button class="bg-indigo-600 text-white px-4 py-2 rounded-full uppercase">Remove</button>
+        </div>
+      </div>
+
+      <!-- Car 2 -->
+      <div class="bg-white rounded-xl shadow-md p-4">
+        <h3 class="text-lg font-semibold mb-2">Mercedes</h3>
+        <img class="w-full h-64 object-cover rounded-lg mb-4" src="./image_resources/amgmerec.jpg" alt="Car Image">
+        <p class="mb-2"><strong>Brand:</strong> Mercedes</p>
+        <p class="mb-2"><strong>Model:</strong> Model AMG</p>
+        <p class="mb-2"><strong>Year:</strong> 2023</p>
+        <p class="mb-2"><strong>Color:</strong> Matte Black</p>
+        <div class="flex justify-between items-center mt-4">
+          <p class="text-orange-600 font-bold">$150,000</p>
+          <button class="bg-indigo-600 text-white px-4 py-2 rounded-full uppercase">Remove</button>
+        </div>
+      </div>
+
+      <!-- Add more car cards here -->
+    </div>
+
+    <div class="flex justify-end mt-8">
+      <button class="bg-indigo-600 text-white px-6 py-3 rounded-full uppercase">Proceed to Checkout</button>
+    </div>
+  </main>
+
+  <footer>
+    <div class="relative m-auto background">
+        <div class="h-full">
+            <div class="bg-comp">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 font-light backdrop-filter backdrop-blur-lg text-white font-boldrounded-xl p-3">
+                <div>
+                    <h4 class="text-lg font-semibold mb-2">Follow Us</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-orange-600"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                        <li><a href="#" class="hover:text-orange-600"><i class="fab fa-twitter-square"></i> Twitter</a></li>
+                        <li><a href="#" class="hover:text-orange-600"><i class="fab fa-instagram-square"></i> Instagram</a></li>
+                        <li><a href="#" class="hover:text-orange-600"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                        <li><a href="#" class="hover:text-orange-600"><i class="fab fa-youtube-square"></i> YouTube</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-semibold mb-2">Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-orange-600"><i class="fas fa-link"></i> Affiliates</a></li>
+                        <li><a href="#" class="hover:text-orange-600"><i class="fas fa-link"></i> Products</a></li>
+                        <li><a href="#" class="hover:text-orange-600"><i class="fas fa-link"></i> Downloads</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-semibold mb-2 backdrop-blur-lg">Pages</h4>
+                    <ul class="space-y-2">
+                        <li><a href="./aboutus.html" class="hover:text-orange-600"><i class="fas fa-info-circle"></i> About</a></li>
+                        <li><a href="./contactus.html" class="hover:text-orange-600"><i class="fas fa-phone"></i> Contact</a></li>
+                        <li><a href="./termsandconditions.html" class="hover:text-orange-600"><i class="fas fa-file-alt"></i> Terms</a></li>
+                        <li><a href="./faqs.html" class="hover:text-orange-600"><i class="fas fa-question-circle"></i> FAQ</a></li>
+                        <li><a href="./blogs.html" class="hover:text-orange-600"><i class="fas fa-newspaper"></i> Blog</a></li>
+                        <li><a href="./privacy.html" class="hover:text-orange-600"><i class="fas fa-lock"></i> Privacy</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-semibold mb-2">Contact Us</h4>
+                    <ul class="space-y-2">
+                        <li><i class="fas fa-map-marker-alt"></i> Address: 123 Street, City, Country</li>
+                        <li><i class="fas fa-envelope"></i> Email: info@example.com</li>
+                        <li><i class="fas fa-phone"></i> Phone: +1234567890</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="pl-3 sm:pl-16 sm:pr-16 bg-black m-auto text-orange-600">
+                <h5 class="text-sm flex sm:flex-row flex-col justify-between">
+                    <span class="flex sm:flex-row">
+                        <span class="flex">&copy; 2023 <p>&nbsp;Mak Enterprises.&nbsp;</p></span>
+                        <p class="flex">All rights reserved.</p>
+                    </span>
+                    <span><a class="" href="#">Developer</a></span>
+                </h5>
+            </section>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

@@ -7,6 +7,7 @@
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="/car_sales/main.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-100">
     <header class="bg-white py-4">
@@ -27,6 +28,13 @@
                         <a href="./shopcar.html" class="font-body text-xl font-semibold ">Shop Cars</a>
                     </span>
                 </nav>
+            </div>
+
+            <div>
+              <button class="toggle-btn" onclick="toggleDarkMode()">
+                <i class="fas fa-sun text-gray-900 dark:text-yellow-400"></i>
+                <i class="fas fa-moon text-gray-900 dark:text-yellow-400"></i>
+              </button>
             </div>
         </section>
     </header>
@@ -158,5 +166,12 @@
         </div>
     </div>
 </footer>
+
+<script>
+  function toggleDarkMode() {
+      const body = document.querySelector("body");
+      body.classList.toggle("dark");
+  }
+</script>
 </body>
 </html>

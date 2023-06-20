@@ -8,6 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="/car_sales/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
 
     <title>Article Title</title>
 </head>
@@ -32,8 +33,13 @@
                     
                 </nav>
             </div>
-    
             
+            <div>
+                <button class="toggle-btn" onclick="toggleDarkMode()">
+                  <i class="fas fa-sun text-gray-900 dark:text-yellow-400"></i>
+                  <i class="fas fa-moon text-gray-900 dark:text-yellow-400"></i>
+                </button>
+            </div>
         </section>
       </header>
 
@@ -161,5 +167,12 @@
         </div>
     </footer>
     <script src="generate_color.js"></script>
+
+    <script>
+        function toggleDarkMode() {
+            const body = document.querySelector("body");
+            body.classList.toggle("dark");
+        }
+    </script>
 </body>
 </html>

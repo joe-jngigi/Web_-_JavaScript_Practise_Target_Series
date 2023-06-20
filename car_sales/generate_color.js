@@ -70,3 +70,11 @@ color_button.addEventListener('click', (e) =>{
     page_background.innerHTML = 'Color Code: ' + change_color
     page_background.children
 })
+
+const toggleBtn = document.querySelector('.toggle-btn');
+const body = document.querySelector('body');
+
+function toggleTheme() {
+    body.classList.toggle('dark-theme');
+    toggleBtn.classList.toggle('active');
+}

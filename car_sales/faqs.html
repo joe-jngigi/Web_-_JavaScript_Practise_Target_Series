@@ -42,15 +42,22 @@
                         <a href="./shopcar.html" class="font-body text-xl font-semibold ">Shop Cars</a>
                     </span>
                     <span class="hover:border-b-2 px-2 active:text-orange-600 hover:border-b-orange-600 hover:text-orange-600  duration-300">
-                        <a href="./about.html" class="font-body text-xl font-semibold ">About</a>
+                        <a href="./aboutus.html" class="font-body text-xl font-semibold ">About</a>
                     </span>
                     <span class="hover:border-b-2 px-2 active:text-orange-600 hover:border-b-orange-600 hover:text-orange-600  duration-300">
-                        <a href="./contact.html" class="font-body text-xl font-semibold ">Contact</a>
+                        <a href="./contactus.html" class="font-body text-xl font-semibold ">Contact</a>
                     </span>
                     <span class="hover:border-b-2 px-2 active:text-orange-600 hover:border-b-orange-600 hover:text-orange-600  duration-300">
                         <a href="./privacy.html" class="font-body text-xl font-semibold ">Privacy</a>
                     </span>
                 </nav>
+            </div>
+
+            <div>
+                <button class="toggle-btn" onclick="toggleDarkMode()">
+                  <i class="fas fa-sun text-gray-900 dark:text-yellow-400"></i>
+                  <i class="fas fa-moon text-gray-900 dark:text-yellow-400"></i>
+                </button>
             </div>
         </section>
     </header>
@@ -223,5 +230,11 @@
     </footer>
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <script>
+        function toggleDarkMode() {
+            const body = document.querySelector("body");
+            body.classList.toggle("dark");
+        }
+    </script>
 </body>
 </html>
